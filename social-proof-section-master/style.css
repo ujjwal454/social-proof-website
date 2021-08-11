@@ -62,7 +62,7 @@ html{
     background: var(--Very-Dark-Magenta);
     margin: 2rem 0rem;
     border-radius: 10px;
-    width: auto;
+    width:auto;
 }
 .card .bio{
     display: flex;
@@ -101,6 +101,9 @@ html{
         padding: 0 0 20px;
         border-radius: 10px;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .container .top-container{
         display: flex;
@@ -147,11 +150,10 @@ html{
     .card-container .card{
         /* height: 300px; */
         width:350px;
-
+        margin-right: 0rem;
     }
     .card-container .card .bio{
         padding:1rem 0rem 0rem 1rem;
-        margin: 0%;
     }
     .card-container .card-1{
         align-self:flex-start;
